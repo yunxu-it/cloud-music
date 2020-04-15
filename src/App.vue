@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <my-header></my-header>
+    <TopHeader/>
     <keep-alive>
       <router-view></router-view>
     </keep-alive>
@@ -9,13 +9,13 @@
 </template>
 
 <script>
-import MyHeader from 'components/my-header/my-header'
+import TopHeader from 'src/components/top-header/TopHeader'
 import Player from 'components/player/player'
 
 export default {
   name: 'App',
   components: {
-    MyHeader,
+    TopHeader,
     Player
   }
 }

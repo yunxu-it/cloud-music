@@ -10,7 +10,7 @@
             <slider>
               <div v-for="(banner, index) in banners" :key="index">
                 <a :href="banner.url">
-                  <img class="needsclick" :src="banner.picUrl" />
+                  <img class="needsclick" :src="banner.imageUrl" />
                 </a>
               </div>
             </slider>

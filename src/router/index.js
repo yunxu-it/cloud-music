@@ -58,11 +58,11 @@ export default new Router({
       name: 'AllSongLists',
       component: () => import('components/all-song-lists/all-song-lists')
     },
-    {
-      path: '/high-quality',
-      name: 'HighQuality',
-      component: () => import('components/high-quality/high-quality')
-    },
+    // {
+    //   path: '/high-quality',
+    //   name: 'HighQuality',
+    //   component: () => import('components/high-quality/high-quality')
+    // },
     {
       path: '/ranks',
       name: 'Ranks',
